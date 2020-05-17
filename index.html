@@ -190,11 +190,11 @@
 
         <div class="room">
           <div class="room-1 row pt-4 pb-4">
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-3">
               <h2 class="d-md-none d-sm-block">Testing Room book</h2>
-              <img class="w-100 h-100" src="https://img.cuddlynest.com/images/listings/2019/10/30/19/76b550122e04f233852b2514afa02bf0.jpg" alt="">
+              <img class="room-pic" src="https://img.cuddlynest.com/images/listings/2019/10/30/19/76b550122e04f233852b2514afa02bf0.jpg" alt="">
             </div>
-            <div class="col-lg-9">
+            <div class="col-lg-9 col-md-9">
               <h2 class="d-none d-md-block d-sm-none">Testing Room book</h2>
               <div class="row">
                 <div class="col-md-4 mt-2 mb-2 order-md-1 order-sm-1">
@@ -207,25 +207,28 @@
                   </ul>
                   <a href="#" class="mt-md-5 d-table">Show all photos <i class="fa fa-arrow-right"></i></a>
                 </div>
+                
                 <div class="col-md-4 mt-2 mb-2 order-md-3 order-sm-2">
                   <h3 class="mb-5">$125 <sub>/night</sub> <small class="d-table">$316 total <i class="fa fa-question-circle"></i></small></h3>
-                  <div class="input-group mb-2">
-                    <span class="input-group-btn">
-                      <button type="button" class="quantity-left-minus btn btn-number" data-type="minus" data-field="">
-                        <i class="fa fa-minus"></i>
-                      </button>
-                    </span>
-                    <input type="text" id="quantity" name="quantity" class="form-control input-number" value="1" min="1"
-                      max="100">
-                    <span class="input-group-btn">
-                      <button type="button" class="quantity-right-plus btn btn-number" data-type="plus" data-field="">
-                        <i class="fa fa-plus"></i>
-                      </button>
-                    </span>
+                  <div class="room-required">
+                    <div class="input-group mb-2">
+                      <span class="input-group-btn">
+                        <button type="button" class="quantity-left-minus btn btn-number" data-type="minus" data-field="">
+                          <i class="fa fa-minus"></i>
+                        </button>
+                      </span>
+                      <input type="text" id="quantity" name="quantity" class="form-control input-number" value="1">
+                      <span class="input-group-btn">
+                        <button type="button" class="quantity-right-plus btn btn-number" data-type="plus" data-field="">
+                          <i class="fa fa-plus"></i>
+                        </button>
+                      </span>
+                    </div>
+                    <p class="availablerooms mt-2 mb-2">Only 3 rooms left</p>
                   </div>
-                  <p class="availablerooms mt-2 mb-2">Only 3 rooms left</p>
                   <button class="btn btn-primary booknow">Book now</button>
                 </div>
+                
                 <div class="col-md-4 mt-2 mb-2 order-md-2 order-sm-3">
                   <h5>AMENITIES</h5>
                   <ul class="list-unstyled mb-2">
@@ -242,11 +245,11 @@
           </div>
           <hr>
           <div class="room-2 row pt-4 pb-4">
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-3">
               <h2 class="d-md-none d-sm-block">Testing Room book</h2>
-              <img class="w-100 h-100" src="https://img.cuddlynest.com/images/listings/2020/04/30/15/t/0f003c269878d40b463943e6a762ed93_460x327.jpg" alt="">
+              <img class="room-pic" src="https://img.cuddlynest.com/images/listings/2020/04/30/15/t/0f003c269878d40b463943e6a762ed93_460x327.jpg" alt="">
             </div>
-            <div class="col-lg-9">
+            <div class="col-lg-9 col-md-9">
               <h2 class="d-md-block d-sm-none">Testing Room book</h2>
               <div class="row">
                 <div class="col-md-8">
@@ -276,21 +279,22 @@
                 </div>
                 <div class="col-md-4">
                   <h3 class="mb-5">$125 <sub>/night</sub> <small class="d-table">$316 total <i class="fa fa-question-circle"></i></small></h3>
-                  <div class="input-group mb-2">
-                    <span class="input-group-btn">
-                      <button type="button" class="quantity-left-minus btn btn-number" data-type="minus" data-field="">
-                        <i class="fa fa-minus"></i>
-                      </button>
-                    </span>
-                    <input type="text" id="quantity" name="quantity" class="form-control input-number" value="1" min="1"
-                      max="100">
-                    <span class="input-group-btn">
-                      <button type="button" class="quantity-right-plus btn btn-number" data-type="plus" data-field="">
-                        <i class="fa fa-plus"></i>
-                      </button>
-                    </span>
+                  <div class="room-required">
+                    <div class="input-group mb-2">
+                      <span class="input-group-btn">
+                        <button type="button" class="quantity-left-minus btn btn-number" data-type="minus" data-field="">
+                          <i class="fa fa-minus"></i>
+                        </button>
+                      </span>
+                      <input type="text" id="quantity" name="quantity" class="form-control input-number" value="1">
+                      <span class="input-group-btn">
+                        <button type="button" class="quantity-right-plus btn btn-number" data-type="plus" data-field="">
+                          <i class="fa fa-plus"></i>
+                        </button>
+                      </span>
+                    </div>
+                    <p class="availablerooms mt-2 mb-2">Only 3 rooms left</p>
                   </div>
-                  <p class="availablerooms mt-2 mb-2">Only 3 rooms left</p>
                   <button class="btn btn-primary booknow">Book now</button>
                 </div>
               </div>
@@ -437,10 +441,7 @@
         Barcelona, Catalonia, Spain
       </p>
       <div class="col-md-8 p-0">
-        <iframe width="100%" height="500"
-          src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street%2C%20Dublin%2C%20Ireland+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"
-          frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a
-            href="https://www.maps.ie/draw-radius-circle-map/">Radius map tool</a></iframe><br />
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47879.77637822717!2d2.16634051176145!3d41.40696714100626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a3391cf8afd3%3A0x3778e280a86a69a2!2sSant%20Mart%C3%AD%2C%20Barcelona%2C%20Spain!5e0!3m2!1sen!2sin!4v1589743677209!5m2!1sen!2sin" style="border:0;width:100%;height:450px;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
       </div>
     </div>
   </div>
@@ -497,8 +498,8 @@
               <h5 class="card-title">Shanghai World Union Serviced Apartment</h5>
               <p class="card-text">Apartment</p>
               <div class="d-flex">
-                <p href="#" class="card-text mr-5 pr-4"> <i class="fa fa-star checked"></i> 4.5</p>
-                <p href="#" class="card-text ml-5 no-uppercase">from $129</p>
+                <p class="card-text mr-5 pr-4"> <i class="fa fa-star checked"></i> 4.5</p>
+                <p class="card-text ml-5 no-uppercase">from $129</p>
               </div>
             </div>
 
